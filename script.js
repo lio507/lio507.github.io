@@ -34,145 +34,145 @@ document.addEventListener('DOMContentLoaded', function() {
     // Portfolio data with categories
     const projects = [
         {
-            title: "E-commerce Website",
-            description: "A fully responsive e-commerce platform with cart functionality and payment integration.",
+            title: ".",
+            description: "",
             tags: ["React", "Node.js", "MongoDB"],
             category: "flyer",
-            image: "assets/portfolio/FLYER-a.jpg"
+            image: "assets/portfolio/FLYER-a.webp"
         },
         {
-            title: "Mobile App Design",
-            description: "UI/UX design for a fitness tracking mobile application with custom illustrations.",
+            title: ".",
+            description: "",
             tags: ["Figma", "Adobe XD", "Illustration"],
             category: "flyer",
-            image: "assets/portfolio/FLYER-b.jpg"
+            image: "assets/portfolio/FLYER-b.webp"
         },
         {
-            title: "Dashboard Analytics",
+            title: ".",
             description: "Interactive data visualization dashboard with real-time updates and filtering options.",
             tags: ["D3.js", "React", "Firebase"],
             category: "flyer",
-            image: "assets/portfolio/FLYER-c.jpg"
+            image: "assets/portfolio/FLYER-c.webp"
         },
         {
-            title: "Brand Identity",
-            description: "Complete brand identity package including logo, color palette, and typography system.",
+            title: ".",
+            description: "",
             tags: ["Branding", "Illustration", "Print"],
             category: "flyer",
-            image: "assets/portfolio/FLYER-d.jpg"
+            image: "assets/portfolio/FLYER-d.webp"
         },
         {
-            title: "CMS Platform",
-            description: "Custom content management system with role-based permissions and WYSIWYG editor.",
+            title: ".",
+            description: "",
             tags: ["PHP", "MySQL", "JavaScript"],
             category: "flyer",
-            image: "assets/portfolio/FLYER-e.jpg"
+            image: "assets/portfolio/FLYER-e.webp"
         },
         {
-            title: "Landing Page",
-            description: "High-conversion landing page with A/B testing capabilities and analytics integration.",
+            title: ".",
+            description: "",
             tags: ["HTML/CSS", "JavaScript", "Google Analytics"],
             category: "web",
-            image: "assets/portfolio/WEB1.jpg"
+            image: "assets/portfolio/WEB1.webp"
         },
         {
-            title: "Landing Page",
-            description: "High-conversion landing page with A/B testing capabilities and analytics integration.",
+            title: ".",
+            description: "",
             tags: ["HTML/CSS", "JavaScript", "Google Analytics"],
             category: "web",
-            image: "assets/portfolio/WEB2.jpg"
+            image: "assets/portfolio/WEB2.webp"
         },
         {
-            title: "Landing Page",
-            description: "High-conversion landing page with A/B testing capabilities and analytics integration.",
+            title: ".",
+            description: "",
             tags: ["HTML/CSS", "JavaScript", "Google Analytics"],
             category: "web",
-            image: "assets/portfolio/WEB3.jpg"
+            image: "assets/portfolio/WEB3.webp"
         }
         ,
         {
-            title: "Landing Page",
-            description: "High-conversion landing page with A/B testing capabilities and analytics integration.",
+            title: ".",
+            description: "",
             tags: ["HTML/CSS", "JavaScript", "Google Analytics"],
             category: "web",
-            image: "assets/portfolio/WEB4.jpg"
+            image: "assets/portfolio/WEB4.webp"
         },
         {
-            title: "Landing Page",
-            description: "High-conversion landing page with A/B testing capabilities and analytics integration.",
+            title: ".",
+            description: "",
             tags: ["HTML/CSS", "JavaScript", "Google Analytics"],
             category: "web",
-            image: "assets/portfolio/WEB5.jpg"
+            image: "assets/portfolio/WEB5.webp"
         },
         {
-            title: "Landing Page",
-            description: "High-conversion landing page with A/B testing capabilities and analytics integration.",
+            title: ".",
+            description: "",
             tags: ["HTML/CSS", "JavaScript", "Google Analytics"],
             category: "web",
-            image: "assets/portfolio/WEB6.jpg"
+            image: "assets/portfolio/WEB6.webp"
         },
         {
-            title: "Landing Page",
-            description: "High-conversion landing page with A/B testing capabilities and analytics integration.",
+            title: ".",
+            description: "",
             tags: ["HTML/CSS", "JavaScript", "Google Analytics"],
             category: "posts",
-            image: "assets/portfolio/IG1.jpg"
+            image: "assets/portfolio/IG1.webp"
         },
         {
-            title: "Landing Page",
-            description: "High-conversion landing page with A/B testing capabilities and analytics integration.",
+            title: ".",
+            description: "",
             tags: ["HTML/CSS", "JavaScript", "Google Analytics"],
             category: "posts",
-            image: "assets/portfolio/IG2.jpg"
+            image: "assets/portfolio/IG2.webp"
         },
         {
-            title: "Landing Page",
-            description: "High-conversion landing page with A/B testing capabilities and analytics integration.",
+            title: ".",
+            description: "",
             tags: ["HTML/CSS", "JavaScript", "Google Analytics"],
             category: "posts",
-            image: "assets/portfolio/IG3.jpg"
+            image: "assets/portfolio/IG3.webp"
         },
         {
-            title: "Landing Page",
-            description: "High-conversion landing page with A/B testing capabilities and analytics integration.",
+            title: ".",
+            description: "",
             tags: ["HTML/CSS", "JavaScript", "Google Analytics"],
             category: "posts",
-            image: "assets/portfolio/IG4.jpg"
+            image: "assets/portfolio/IG4.webp"
         },
         {
-            title: "Landing Page",
-            description: "High-conversion landing page with A/B testing capabilities and analytics integration.",
+            title: ".",
+            description: "",
             tags: ["HTML/CSS", "JavaScript", "Google Analytics"],
             category: "posts",
-            image: "assets/portfolio/IG5.jpg"
+            image: "assets/portfolio/IG5.webp"
         },
         {
-            title: "Landing Page",
-            description: "High-conversion landing page with A/B testing capabilities and analytics integration.",
+            title: ".",
+            description: "",
             tags: ["HTML/CSS", "JavaScript", "Google Analytics"],
             category: "posts",
-            image: "assets/portfolio/IG6.jpg"
+            image: "assets/portfolio/IG6.webp"
         },
         {
-            title: "Landing Page",
-            description: "High-conversion landing page with A/B testing capabilities and analytics integration.",
+            title: ".",
+            description: "",
             tags: ["HTML/CSS", "JavaScript", "Google Analytics"],
             category: "posts",
-            image: "assets/portfolio/IG7.jpg"
+            image: "assets/portfolio/IG7.webp"
         },
         {
-            title: "Landing Page",
-            description: "High-conversion landing page with A/B testing capabilities and analytics integration.",
+            title: ".",
+            description: "",
             tags: ["HTML/CSS", "JavaScript", "Google Analytics"],
             category: "posts",
-            image: "assets/portfolio/IG8.jpg"
+            image: "assets/portfolio/IG8.webp"
         },
         {
-            title: "Landing Page",
-            description: "High-conversion landing page with A/B testing capabilities and analytics integration.",
+            title: ".",
+            description: "",
             tags: ["HTML/CSS", "JavaScript", "Google Analytics"],
             category: "posts",
-            image: "assets/portfolio/IG9.jpg"
+            image: "assets/portfolio/IG9.webp"
         }
     ];
     // Get all unique tags and categories
