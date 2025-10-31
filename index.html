@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C2J4QH6D3K"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-C2J4QH6D3K');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Lionso Cz" name="author">
+    <meta content="noindex" name="robots">
+    <title>Lionso - Asesor de Marketing Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+    <custom-navbar></custom-navbar>
+    
+    <main class="container mx-auto px-4 py-12">
+        <!-- Hero Section -->
+        <section class="text-center py-20">
+            <div class="w-full text-center">
+                <img src="assets/profile-lionso.png" class="mx-auto" alt="Lio">
+            </div>
+
+            <h1 class="text-5xl font-bold mb-4">Hola, soy <span class="text-blue-600">Lionso</span></h1>
+            <p class="text-xl text-gray-600 max-w-2xl mx-auto">Diseñador/Programador Web con sólida experiencia en marketing digital; orientado al trabajo en equipo y mejoramiento continuo, así como con facilidad de expresión verbal y escrita.</p>
+           
+            <div class="mt-8 flex flex-wrap justify-center gap-2">
+                <a href="#portfolio" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg mr-4 transition duration-300">Ver Portafolio</a>
+                <!--<a href="#contact" class="border border-indigo-600 text-indigo-600 hover:bg-indigo-50 px-6 py-3 rounded-lg transition duration-300">Contactame</a>-->
+                <button id="darkModeToggle" class="bg-gray-200 hover:bg-gray-300 text-gray-800 px-6 py-3 rounded-lg transition duration-300 flex items-center gap-2">
+                    <i data-feather="moon"></i>
+                </button>
+            </div>
+        </section>
+        <!-- Portfolio Section -->
+
+        
+        <section class="py-12 px-4">
+            <h2 class="text-3xl font-bold text-center mb-6 text-gray-600">Portafolio</h2>    
+            <div id="portfolio">
+                <!-- Masonry grid here -->
+            </div>
+            
+        </section>
+        <!-- Contact Section -->
+        <section id="contact" class="py-12">
+                <div class="text-center my-8">
+                    <h2 class="text-3xl text-gray-600 font-bold leading-tight">
+                      Consultas
+                    </h2>
+                    <p class="text-lg mt-1 text-gray-600">
+                        ¿Diriges una PYME o empresa de gran tamaño? <span class="italic">Trabajemos juntos!</span>
+                    </p>
+                  </div>
+
+            
+            <form id="contact-form" class="max-w-lg mx-auto bg-white p-8 rounded-xl shadow-md">
+
+                <input type="hidden" name="access_key" value="ffea4d06-143e-43d4-8880-6ec9afd0a1de">
+                <input type="hidden" name="subject" value="Consulta desde mi portfolio">
+                <input name="from_name" type="hidden" value="Web3Forms">
+                <input type="checkbox" name="botcheck" id="" style="display: none;">
+                <div class="mb-6">
+                    <input class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500" name="nombre" type="text" autocomplete="off" id="nombre" placeholder="Nombre" required="">
+                </div>
+                <div class="mb-6">
+                    <input class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 " name="email" type="email" autocomplete="off" id="email" placeholder="Email" required="">
+                </div>
+                <div class="mb-6">
+                    <textarea rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500" name="mensaje" id="mensaje" placeholder="Escriba su consulta" required="" rows="4"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white py-3 rounded-lg transition duration-300">Enviar Consulta</button>
+
+                <div class="text-center text-2xl" id="result"> </div>
+
+            </form>
+        </section>
+
+
+        <!-- About Section -->
+        <!-- Contact Section -->
+
+    </main>
+
+
+
+    <footer class=" h-48 text-white py-12">
+        <div class="container mx-auto flex justify-center items-center text-gray-600">
+          <p>&copy; 2025 - Lionso Cz. Todos los derechos reservados</p>
+        </div>
+      </footer>
+
+    <!-- Mobile Bottom Sticky Bar -->
+    <div class="mobile-bottom-bar">
+        <nav class="mobile-bottom-nav">
+            <a href="#" class="mobile-nav-item active">
+                <i data-feather="home" class="mobile-nav-icon"></i>
+                <span>Home</span>
+            </a>
+            <a href="#portfolio" class="mobile-nav-item">
+                <i data-feather="grid" class="mobile-nav-icon"></i>
+                <span>Work</span>
+            </a>
+            <a href="#about" class="mobile-nav-item">
+                <i data-feather="user" class="mobile-nav-icon"></i>
+                <span>About</span>
+            </a>
+            <a href="#contact" class="mobile-nav-item">
+                <i data-feather="mail" class="mobile-nav-icon"></i>
+                <span>Contact</span>
+            </a>
+        </nav>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+
+
+    <script>
+    const form = document.getElementById('contact-form');
+    const resultDiv = document.getElementById('result');
+
+    form.addEventListener('submit', async function (event) {
+        event.preventDefault(); // Prevent default form submission
+
+        const formData = new FormData(form);
+        const object = Object.fromEntries(formData);
+        const json = JSON.stringify(object);
+
+        resultDiv.innerHTML = "Please wait...";
+
+        try {
+            const response = await fetch('https://api.web3forms.com/submit', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: json
+            });
+
+            const data = await response.json();
+
+            if (data.success) {
+                resultDiv.innerHTML = "Su consulta ha sido enviada!";
+                form.reset(); // Clear the form
+            } else {
+                resultDiv.innerHTML = "Error: " + data.message;
+            }
+        } catch (error) {
+            console.error('Error submitting form:', error);
+            resultDiv.innerHTML = "An error occurred. Please try again.";
+        }
+    });
+    </script>
+
+</body>
+</html>
