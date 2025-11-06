@@ -64,9 +64,9 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             title: ".",
             description: "",
-            tags: ["PHP", "MySQL", "JavaScript"],
+            tags: ["Photoshop","Inkscape"],
             category: "flyer",
-            image: "assets/portfolio/FLYER-e.webp"
+            image: "assets/portfolio/FLYER-e1.webp"
         },
         {
             title: ".",
