@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function() {
             description: "",
             tags: ["Photoshop","Inkscape"],
             category: "flyer",
-            image: "assets/portfolio/FLYER-e1.webp"
+            image: "assets/portfolio/FLYER-e2.webp"
         },
         {
             title: ".",
